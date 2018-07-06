@@ -11,7 +11,7 @@ This project has been a collaboration with Mat Hall and Phil McMinn at the Unive
 Our SUMO tool reads the current package of a structure and interacts with the user to enable them to indicate which files do and do not belong into the same module. In doing so it will continuously suggest improved modularisations.
 
 <div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/sumo-shot2.png" alt="" title="Screen shot 1"/>
+    <img class="col two left" src="{{ site.baseurl }}/assets/img/sumo-shot2.png" alt="" title="Screen shot 1"/>
 </div>
 
 ### Software
