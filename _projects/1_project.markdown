@@ -11,16 +11,16 @@ This project has been a collaboration with Mat Hall and Phil McMinn at the Unive
 Our SUMO tool reads the current package of a structure and interacts with the user to enable them to indicate which files do and do not belong into the same module. In doing so it will continuously suggest improved modularisations.
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/sumo-shot2.png" alt="" title="Screen shot 1" width="300px"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/sumoui.png" alt="" title="Screen shot 2" width="300px"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/lattice.png" alt="" title="Lattice" width="300px"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/sumo-shot2.png" alt="" title="Screen shot 1" width="200px"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/sumoui.png" alt="" title="Screen shot 2" width="200px"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/lattice.png" alt="" title="Lattice" width="200px"/>
 </div>
 
-# Software
+### Software
 
 An implementation of the SUMO tool [is available](https://bitbucket.org/mathew_hall/sumo){:target="\_blank"} via Bitbucket. It is licensed under the 3-clause BSD license.
 
-# Publications
+### Publications
 
 Go to my Publications page for links to PDF copies of the papers.
 
