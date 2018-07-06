@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Semi-Automated Software Remodularisation
-description: Efficiently reorganising files within a software system to minimise disruption.
+title: Software Remodularisation
+description: Efficiently restructuring software systems.
 img: /assets/img/lattice.png
 ---
 As software evolves, its module structure can deteriorate. Given such a system, it can be challenging to find an appropriate package structure. Although several automated approaches have been proposed, they tend to be too disruptive, and often fail to make sense from a domain perspective.

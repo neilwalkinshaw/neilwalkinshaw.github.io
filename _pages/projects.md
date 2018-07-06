@@ -5,6 +5,8 @@ permalink: /projects/
 description:
 ---
 
+This list of projects is incomplete, and is currently being updated. 
+
 {% for project in site.projects %}
 
 {% if project.redirect %}
