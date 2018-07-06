@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Software Remodularisation
+title: SUMO
 description: Efficiently restructuring software systems.
-img: /assets/img/lattice.png
+img: /assets/img/sumo-shot2.png
 ---
 As software evolves, its module structure can deteriorate. Given such a system, it can be challenging to find an appropriate package structure. Although several automated approaches have been proposed, they tend to be too disruptive, and often fail to make sense from a domain perspective.
 
