@@ -54,6 +54,9 @@
   {% endif %}
 
   <span class="links">
+    {% if entry.url %}
+      [<a href="{{ entry.url }}" target="_blank">Paper</a>]
+    {% endif %}
   {% if entry.abstract %}
     [<a class="abstract">Abs</a>]
   {% endif %}
