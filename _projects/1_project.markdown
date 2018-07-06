@@ -16,11 +16,11 @@ Our SUMO tool reads the current package of a structure and interacts with the us
     <img class="col one left" src="{{ site.baseurl }}/assets/img/lattice.png" alt="" title="Lattice" width="300px"/>
 </div>
 
-#Software
+# Software
 
 An implementation of the SUMO tool [is available](https://bitbucket.org/mathew_hall/sumo){:target="\_blank"} via Bitbucket. It is licensed under the 3-clause BSD license.
 
-#Publications
+# Publications
 
 Go to my Publications page for links to PDF copies of the papers.
 
