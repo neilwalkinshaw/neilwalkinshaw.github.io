@@ -1,55 +1,32 @@
 ---
 layout: page
-title: Project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: Semi-Automated Software Remodularisation
+description: Efficiently reorganising files within a software system to minimise disruption.
+img: /assets/img/lattice.png
 ---
+As software evolves, its module structure can deteriorate. Given such a system, it can be challenging to find an appropriate package structure. Although several automated approaches have been proposed, they tend to be too disruptive, and often fail to make sense from a domain perspective.
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+This project has been a collaboration with Mat Hall and Phil McMinn at the University of Sheffield, as well as Ali Khojaye, who worked on this as an MSc. student when I was at Leicester.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+Our SUMO tool reads the current package of a structure and interacts with the user to enable them to indicate which files do and do not belong into the same module. In doing so it will continuously suggest improved modularisations.
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    This image can also have a caption. It's like magic.
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/sumo-shot2.png" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/sumoui.png" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/lattice.png" alt="" title="example image"/>
 </div>
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+#Software
 
+An implementation of the SUMO tool [is available](https://bitbucket.org/mathew_hall/sumo){:target="\_blank"} via Bitbucket. It is licensed under the 3-clause BSD license.
 
-<div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+#Publications
 
+Go to my Publications page for links to PDF copies of the papers.
 
-<br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
-</div>
+* Effectively incorporating expert knowledge in automated software remodularisation Hall, Mathew, Walkinshaw, Neil, and McMinn, Phil,
+IEEE Transactions on Software Engineering, 2018
+* Establishing the source code disruption caused by automated remodularisation tools Hall, Mathew, Khojaye, Muhammad Ali, Walkinshaw, Neil, and McMinn, Phil,
+International Conference on Software Maintenance and Evolution (ICSME) ESR track, 2014
+* Supervised software modularisation Hall, Mathew, Walkinshaw, Neil, and McMinn, Phil,
+International Conference on Software Maintenance (ICSM'12)
