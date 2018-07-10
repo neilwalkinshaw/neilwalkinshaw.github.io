@@ -1,6 +1,6 @@
 ---
 layout: page
-title: EFSM Inference
+title: (E)FSM Inference
 description: Inferring state based software models.
 img: /assets/img/process-small.png
 ---
