@@ -23,7 +23,7 @@ I studied my Ph.D. (2002-2005) at the [University of Strathclyde](https://www.st
 
 ### Programme Committees
 
-* [The International Conference on Software Testing, 2019 (ICST'19)](http://icst2019.xjtu.edu.cn/){:target="\_blank"}
+* [The 12th International Conference on Software Testing, 2019 (ICST'19)](http://icst2019.xjtu.edu.cn/){:target="\_blank"}
 * [The 34th ACM/SIGAPP Symposium on Applied Computing (SAC'19)](https://www.sigapp.org/sac/sac2019/){:target="\_blank"}
 * [The 18th International Conference on Runtime Verification (RV'18)](https://rv2018.isp.uni-luebeck.de/){:target="\_blank"}
 * [The 10th International Conference on Advances in System Testing and Validation Lifecycle (VALID'18)](https://www.iaria.org/conferences2018/VALID18.html){:target="\_blank"}
