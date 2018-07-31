@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Evidence-Based Reasoning
-description: Deriving assessments from uncertain data.
+description: Decisions from uncertain data.
 img: /assets/img/dodgyTruck.png
 ---
 There are often situations in which it is necessary to arrive at some decision or assessment, even though the underlying evidence is uncertain or partial. This project has developed structured reasoning techniques that can accommodate this sort of information.
