@@ -23,10 +23,7 @@ I studied my Ph.D. (2002-2005) at the [University of Strathclyde](https://www.st
 
 ### Programme Committees
 
+* [The 35th International Symposium on Applied Computing (SVT track)](http://guedemann.org/svt2020/){:target="\_blank"}
 * [The 13th International Conference on Software Testing (ICST'20)](http://www.icst2020.info/){:target="\_blank"}
 * [The 12th International Conference on Quality of Information Technology (QUATIC'19)](https://sites.google.com/view/quatic2019/home?authuser=0){:target="\_blank"}
 * [The 19th International Conference on Runtime Verification (RV'19)](https://www.react.uni-saarland.de/rv2019/){:target="\_blank"}
-* [The First International Conference on Artificial Intelligence Testing (AI-TEST'19)](http://ieeeaitests.com/){:target="\_blank"}
-* [The 12th International Conference on Software Testing, 2019 (ICST'19)](http://icst2019.xjtu.edu.cn/){:target="\_blank"}
-* [The 34th ACM/SIGAPP Symposium on Applied Computing (SAC'19)](https://www.sigapp.org/sac/sac2019/){:target="\_blank"}
-* [The 2nd International Workshop on Verification and Validation of Internet of Things (VVIoT'19)](https://web.fe.up.pt/~vviot2019/){:target="\_blank"}
