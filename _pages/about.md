@@ -23,8 +23,8 @@ I studied my Ph.D. (2002-2005) at the [University of Strathclyde](https://www.st
 
 ### Current PC and Organisational Duties
 
-* [35th IEEE/ACM International Conference on Automated Software Engineering](https://a2i2.github.io/ase2020/){:target="\_blank"}
-* [12th Symposium on Search Based Software Engineering](http://ssbse2020.di.uniba.it/){:target="\_blank"}
+* [35th IEEE/ACM International Conference on Automated Software Engineering (ASE'20)](https://a2i2.github.io/ase2020/){:target="\_blank"}
+* [12th Symposium on Search Based Software Engineering (SBSE'20)](http://ssbse2020.di.uniba.it/){:target="\_blank"}
 * [International Conference on Evaluation and Assessment in Software Engineering (EASE'20)](https://www.ntnu.edu/ease2020){:target="\_blank"}
 * [The 35th International Symposium on Applied Computing (SVT track)](http://guedemann.org/svt2020/){:target="\_blank"}
 * [The 13th International Conference on Software Testing (ICST'20)](http://www.icst2020.info/){:target="\_blank"}
