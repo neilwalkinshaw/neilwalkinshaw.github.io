@@ -15,7 +15,7 @@ My initial work on this area used a Dempster-Shafer based analysis technique cal
 Since then I have moved on to using a different Dempster-Shafer based reasoning technique - [Subjective Logic](https://en.wikipedia.org/wiki/Subjective_logic). This is more flexible and allows evidential beliefs (or non-evidential beliefs) to be expressed and combined more flexibly. Together with Martin Shepperd we have looked at applying this approach to reason about uncertainty with respect to Empirical Software Engineering results (EASE'20).
 
 <div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/dodgyTruck.png" alt="" title="Screen shot 1"/>
+    <img class="col two left" src="{{ site.baseurl }}/assets/img/dodgyTruck.png" alt="" title="Screen shot 1"/>  <img class="col two right" src="{{ site.baseurl }}/assets/img/fusedPlot1.png" alt="" title="SL-fused"/>
 </div>
 
 
