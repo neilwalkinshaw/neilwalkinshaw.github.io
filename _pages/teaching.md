@@ -5,26 +5,12 @@ title: teaching
 description: Details on my teaching activities.
 ---
 
-I teach a variety of topics in Software Engineering. Courses tend to be geared towards a mixture of undergraduate and postgraduates, primarily from a Computer Science background.
+My teaching has traditionally focussed on Software Engineering. In the past I have taught modules on safety-critical software development, and systems design.
 
-## Current
+## Software Reengineering (COM3523, COM6523)
 
-### Testing and Verification in Safety Critical Systems (COM4506 / COM6506)
+I am currently responsible for teaching Software Reengineering to our Undergraduate and Masters cohort. The course revolves around the challenges involved in "brown-field" software development; how to understand unfamiliar systems, find design weaknesses, to devise re-engineering strategies.
 
-In this course we cover every aspect of the conventional software development lifecycle (from requirements elicitation through to verification and validation), but with a particular emphasis on the activities that are particularly important for safety critical software, such as hazard / risk analysis, safety cases, and the various conventions that can support conformance with industry standards.
+The course is very applied, where students are engaged in exercises to re-engineer real open-source software systems.
 
-### Systems Design and Security (COM2008)
-
-This course covers development activities that are particularly relevant to security. We examine where vulnerabilities can arise, and look at some of the techniques that are used to attenuate them.
-
-## Previous
-
-Whilst at Leicester I taught two modules:
-
-### Software Reengineering
-
-This module teaches students how to improve existing legacy software systems (as opposed to developing software from scratch). For this we teach a mixture of reverse-engineering techniques (to understand the structure / functionality of a software system), as well as refactoring and re-structuring techniques to gradually improve software quality.
-
-### Software Metrics and Quality Assurance
-
-This module provided a broad perspective on the challenges and techniques involved in ensuring software quality. Activities ranged from requirements elicitation, through to cost estimation, quality measurement, and testing / verification techniques.
+We are always looking for guest-lecturers or industrial collaborators, so please contact me if this is of interest to you!
