@@ -30,6 +30,7 @@ Implementations of the various state machine inference approaches [are available
 
 Go to my Publications page for links to PDF copies of the papers.
 
+* Improving Automated GUI Testing by Learning to Avoid Infeasible Tests Walkinshaw, Neil In Proceedings of the Second IEEE International Conference on Artificial Intelligence Testing (AITEST’20) 2020
 * Inferring extended finite state machine models from software executions Walkinshaw, Neil, Taylor, Ramsay, and Derrick, John Empirical Software Engineering 2016
 * Inferring computational state machine models from program executions Walkinshaw, Neil, and Hall, Mathew In Software Maintenance and Evolution (ICSME), 2016 IEEE International Conference on 2016
 * SEPIA: search for proofs using inferred automata Gransden, Thomas, Walkinshaw, Neil, and Raman, Rajeev In International Conference on Automated Deduction 2015
