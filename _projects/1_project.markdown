@@ -1,30 +1,20 @@
 ---
 layout: page
-title: SUMO
-description: Efficiently restructuring software systems.
-img: /assets/img/sumo-shot2.png
+title: Causal Inference and Software Engineering
+description: Exploring causality in Software Engineering
+img: /assets/img/citcom_process.jpg
 ---
-As software evolves, its module structure can deteriorate. Given such a system, it can be challenging to find an appropriate package structure. Although several automated approaches have been proposed, they tend to be too disruptive, and often fail to make sense from a domain perspective.
+I have recently developed an interest in causality, in statistical approaches that can be used to establish evidence of it, and in its relation to software engineering. 
 
-This project has been a collaboration with Mat Hall and Phil McMinn at the University of Sheffield, as well as Ali Khojaye, who worked on this as an MSc. student when I was at Leicester.
+There are lots of interesting approaches from Casual Inference that could, in the context of Software Testing, lead to new and powerful ways to reason about software behaviour, and in particular the relationship between particular inputs and buggy behaviour.
 
-Our SUMO tool reads the current package of a structure and interacts with the user to enable them to indicate which files do and do not belong into the same module. In doing so it will continuously suggest improved modularisations.
+This work is being carried out on the EPSRC-funded CITCOM project, with my colleagues Rob Hierons, Michael Foster and Andy Clark, along with Nick Latimer in ScHARR and David Wagg in Mechanical Engineering. The project also features (or will feature!) collaborations with several industrial partners (STFC and DSTL), as well as international academic partners (Robert Feldt at Chalmers and Andy Podgurski at Case Western Reserve).
 
-<div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/sumo-shot2.png" alt="" title="Screen shot 1"/>
-</div>
+More details of the grant are [available here](https://sites.google.com/sheffield.ac.uk/citcom/home).
 
-### Software
+### Funding
 
-An implementation of the SUMO tool [is available](https://bitbucket.org/mathew_hall/sumo){:target="\_blank"} via Bitbucket. It is licensed under the 3-clause BSD license.
-
+* 2021-2024 - Causal Inference for Testing Computational Models (CITCoM), EPSRC (£670,838)
 ### Publications
 
-Go to my Publications page for links to PDF copies of the papers.
-
-* Effectively incorporating expert knowledge in automated software remodularisation Hall, Mathew, Walkinshaw, Neil, and McMinn, Phil,
-IEEE Transactions on Software Engineering, 2018
-* Establishing the source code disruption caused by automated remodularisation tools Hall, Mathew, Khojaye, Muhammad Ali, Walkinshaw, Neil, and McMinn, Phil,
-International Conference on Software Maintenance and Evolution (ICSME) ESR track, 2014
-* Supervised software modularisation Hall, Mathew, Walkinshaw, Neil, and McMinn, Phil,
-International Conference on Software Maintenance (ICSM'12)
+* ["Test case generation for agent-based models: A systematic literature review" by Andrew G. Clark, Neil Walkinshaw and Rob Hierons accepted to the Journal of Information and Software Technology (IST)](https://www.sciencedirect.com/science/article/pii/S0950584921000501)
