@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: about 
 permalink: /
 title: <strong>Neil Walkinshaw</strong>
 description: Senior Lecturer at the <a href="https://www.sheffield.ac.uk/dcs/indexdcs">Department of Computer Science</a>, at the University of Sheffield.
