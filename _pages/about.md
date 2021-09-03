@@ -25,6 +25,7 @@ Within my department I am the Director of Equality, Diversity and Inclusivity. M
 
 ### Current PC and Organisational Duties
 
+* [ICSE 2022 SEIP (Software Engineering in Practice track)](https://conf.researchr.org/track/icse-2022/icse-2022-seip---software-engineering-in-practice){:target="\_blank"}
 * [36th IEEE/ACM International Conference on Automated Software Engineering (ASE'21)](https://conf.researchr.org/home/ase-2021){:target="\_blank"}
 * [International Conference on Evaluation and Assessment in Software Engineering (EASE'21)](https://www.ntnu.edu/ease2021){:target="\_blank"}
 * [3rd International Conference on Artificial Intelligence Testing (AITEST’21).](http://ieeeaitests.com/){:target="\_blank"}
