@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description:
 ---
@@ -9,7 +9,7 @@ I am interested in several aspects of Software Engineering. I am particularly in
 
 A list of my main research themes is listed below (they are broadly in order of recent activity). I'm happy to discuss any of these topics, please feel free to get in touch. If I haven't published in an area for a while, it won't be because I have lost interest in it! I post some links to research papers below, but please see my publications page for a full list of publications.
 
-# Causal inference for software testing
+## Causal inference for software testing
 
 Causal Inference describes a family of statistical techniques that can establish causal relationships between events. They are powerful because they can, with the appropriate guidance, offer a way to work around the criticism of traditional associational statistics, that `correlation does not imply causation'. These techniques offer lots of potential in the context of software testing (e.g. to establish definitively that a particular input configuration causes a particular output, or to reliably establish the cause of a bug).
 
@@ -17,12 +17,12 @@ On this project, we are currently particularly interested in focussing on the ch
 
 This work is being carried out on the EPSRC-funded [CITCOM project](https://sites.google.com/sheffield.ac.uk/citcom/home), with [Rob Hierons](https://robhierons.github.io/), [Michael Foster](http://staffwww.dcs.shef.ac.uk/people/M.Foster/), [Andy Clark](https://github.com/AndrewC19), and [Richard Somers](https://richardsomers.dev/) along with [Nick Latimer](https://www.sheffield.ac.uk/scharr/people/staff/nicholas-latimer) in the Sheffield School for Health and Related Research (ScHaRR) and [David Wagg](https://www.sheffield.ac.uk/mecheng/people/academic/david-wagg) in the department for Mechanical Engineering. The project also features (or will feature!) collaborations with several industrial partners and international collaborators, whom we are looking forward to working with. 
 
-## Funding
+### Funding
 
 * 2021-2024 - Causal Inference for Testing Computational Models (CITCoM), PI, funded by EPSRC 
 
 
-# Reverse engineering and testing models of software behaviour
+## Reverse engineering and testing models of software behaviour
 
 Model based software testing is nice in theory, but problematic in practice because the required models are rarely produced to begin with. With the rapid improvement of Machine Learning techniques, it has become possible to take a sample of program executions and to infer models from these. Once a model exists, this can in turn be used to `test' (or at least explore) the behaviour of the system under test, and so a virtuous cycle emerges.
 
@@ -34,14 +34,14 @@ It hasn't all revolved around state machines and reactive systems though. I've b
 
 Aside from the specific question of how to infer a model, there is also the broader question of how to pick useful test cases once a model has been inferred. It is in this context that, together with Gordon Fraser, I have been investigating [uncertainty (in its various forms) as a basis for driving test selection](https://arxiv.org/pdf/1608.03181.pdf) and assessing test adequacy.
 
-## Funding
+### Funding
 
 * October 2012 – May 2013 BATS (Building Adequate Test Sets by Reverse Engineering), PI, funded by DSTL.
 * July 2009 – June 2012	StaMInA (A Novel Competition to Drive the Comparative Evaluation of State Machines), Researcher Co-investigator, funded by EPSRC
 * April 2009 – September 2012 REGI (Reverse Engineering State Machines by Grammar Inference), Researcher Co-investigator, funded by EPSRC
 
 
-# Uncertainty (or doubt, or ignorance) in Software Engineering
+## Uncertainty (or doubt, or ignorance) in Software Engineering
 
 Software engineers are often uncertain about the software they are developing or maintaining. This is unavoidable for any non-trivial system. I am particularly interested in the challenge of quantifying, communicating and managing this uncertainty. 
 
