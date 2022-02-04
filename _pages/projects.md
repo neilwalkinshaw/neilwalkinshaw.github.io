@@ -51,6 +51,6 @@ Recently, I have taken an interest in using these techniques to capture and reas
 
 ### Funding
 
-* 2016 - Evidential Reasoning for Radiological Detection, AWE
-* 2016 - Trustworthiness Level Determination and Aggregation for Operation of Autonomous Vehicles, DSTL ASUR programme, 	joint with Qinetiq and Fraser Nash Consulting
-* 2015 - EVIRE (An Evidence-Driven Reasoning Framework to Support the Transparent Control, Verification, and Validation of 	Autonomous Systems), DSTL ASUR programme.
+* 2016 - Evidential Reasoning for Radiological Detection, AWE (PI)
+* 2016 - Trustworthiness Level Determination and Aggregation for Operation of Autonomous Vehicles, DSTL ASUR programme (PI for Leicester), joint with Qinetiq and Fraser Nash Consulting
+* 2015 - EVIRE (An Evidence-Driven Reasoning Framework to Support the Transparent Control, Verification, and Validation of 	Autonomous Systems), DSTL ASUR programme (PI for Leicester).
