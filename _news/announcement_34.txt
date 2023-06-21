@@ -1,0 +1,7 @@
+---
+layout: post
+date: 2023-06-21 12:00:00-0000
+inline: true
+---
+
+Our paper "Testing Causality in Scientific Modelling Software", led by Andy Clark, has just been accepted to ACM Transactions on Software Engineering and Methodology". 
