@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description:
 ---
@@ -15,7 +15,11 @@ Causal Inference describes a family of statistical techniques that can establish
 
 On this project, we are currently particularly interested in focussing on the challenge of testing computational models and digital twins. 
 
-This work is being carried out on the EPSRC-funded [CITCOM project](https://sites.google.com/sheffield.ac.uk/citcom/home), with [Rob Hierons](https://robhierons.github.io/), [Michael Foster](http://staffwww.dcs.shef.ac.uk/people/M.Foster/), [Andy Clark](https://github.com/AndrewC19), and [Richard Somers](https://richardsomers.dev/) along with [Nick Latimer](https://www.sheffield.ac.uk/scharr/people/staff/nicholas-latimer) in the Sheffield School for Health and Related Research (ScHaRR) and [David Wagg](https://www.sheffield.ac.uk/mecheng/people/academic/david-wagg) in the department for Mechanical Engineering. The project also features (or will feature!) collaborations with several industrial partners and international collaborators, whom we are looking forward to working with. 
+This work is being carried out on the EPSRC-funded CITCOM project, with [Rob Hierons](https://robhierons.github.io/), [Michael Foster](http://staffwww.dcs.shef.ac.uk/people/M.Foster/), [Andy Clark](https://github.com/AndrewC19), and [Richard Somers](https://richardsomers.dev/) along with [Nick Latimer](https://www.sheffield.ac.uk/scharr/people/staff/nicholas-latimer) in the Sheffield School for Health and Related Research (ScHaRR) and [David Wagg](https://www.sheffield.ac.uk/mecheng/people/academic/david-wagg) in the department for Mechanical Engineering. 
+
+### Software
+
+* The [CITCOM Causal Testing Framework](https://github.com/CITCOM-project/CausalTestingFramework)
 
 ### Funding
 
