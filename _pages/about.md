@@ -26,8 +26,8 @@ Within my department I am the Director of Equality, Diversity and Inclusivity. M
 ### Current PC and Organisational Duties
 
 
-* PC for the [ASE 2023 NIER Track](https://conf.researchr.org/track/ase-2023/ase-2023-nier-track)
-* Student Volunteer chair for [International Conference on Software Testing (ICST'23)](https://conf.researchr.org/home/icst-2023){:target="\_blank"} 
+* Publication Chair for [ICST 2024](https://conf.researchr.org/home/icst-2024){:target="\_blank"}
+* PC for the [ASE 2023 NIER Track](https://conf.researchr.org/track/ase-2023/ase-2023-nier-track){:target="\_blank"}
 * [Tests and Proofs (TAP'23)](https://conf.researchr.org/home/tap-2023){:target="\_blank"}
 
 
