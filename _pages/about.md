@@ -23,8 +23,9 @@ I studied my Ph.D. (2002-2005) at the [University of Strathclyde](https://www.st
 
 ### Current PC and Organisational Duties
 
-
-* Publication Chair for the International Conference on Software Testing [ICST 2024](https://conf.researchr.org/home/icst-2024){:target="\_blank"}
 * PC member for the International Symposium on Software Reliability Engineering [ISSRE 2024](https://issre.github.io/2024/){:target="\_blank"}
+* PC member for Tests and Proofs [TAP 2024](https://tapconference.github.io/2024/){:target="\_blank"}
+* Publication Chair for the International Conference on Software Testing [ICST 2024](https://conf.researchr.org/home/icst-2024){:target="\_blank"}
+
 
 
