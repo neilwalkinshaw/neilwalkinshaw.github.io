@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2018-09-06 12:00:00-0000
+date: 2016-01-15 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-I have joined the PC for the first International Conference on Artificial Intelligence Testing [AI-TEST'19](http://ieeeaitests.com/){:target="\_blank"}. An interesting looking conference!
+A simple inline announcement with Markdown emoji! :sparkles: :smile:

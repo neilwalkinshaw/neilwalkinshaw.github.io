@@ -2,15 +2,11 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Details on my teaching activities.
+description: Materials for courses you taught. Replace this text with your description.
+nav: true
+nav_order: 6
 ---
 
-My teaching has traditionally focussed on Software Engineering. In the past I have taught modules on safety-critical software development, and systems design.
+For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
-## Software Reengineering (COM3523, COM6523)
-
-I am currently responsible for teaching Software Reengineering to our Undergraduate and Masters cohort. The course revolves around the challenges involved in "brown-field" software development; how to understand unfamiliar systems, find design weaknesses, to devise re-engineering strategies.
-
-The course is very applied, where students are engaged in exercises to re-engineer real open-source software systems.
-
-We are always looking for guest-lecturers or industrial collaborators, so please contact me if this is of interest to you!
+Organize your courses by years, topics, or universities, however you like!

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2018-07-05 12:00:00-0000
+date: 2015-10-22 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-I have a new webpage!
+A simple inline announcement.
