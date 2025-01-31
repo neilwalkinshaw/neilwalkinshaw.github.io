@@ -1,20 +1,31 @@
 ---
-layout: about 
+layout: about
+title: about
 permalink: /
-title: <strong>Neil Walkinshaw</strong>
-description: Senior Lecturer at the <a href="https://www.sheffield.ac.uk/dcs/indexdcs">Department of Computer Science</a>, at the University of Sheffield.
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
+  image_circular: false # crops the image to make it circular
+  more_info: >
     <p>Department of Computer Science,</p>
     <p>Regent Court,</p>
     <p>211 Portobello Street</p>
     <p>Sheffield, S1 4DP</p>
 
-news: true
-social: true
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
 My research and teaching focus on software quality assurance. My research has a particular emphasis on “black-box” components - software units that lack documentation and cannot be scrutinised internally. I specialise in applying Machine Learning and other data analysis algorithms to the specific activities of testing, reverse-engineering, and safety-case assessment.
