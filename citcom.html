@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CITCOM: Causal Inference for Testing of Computational Models</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: auto; /* Ensures original width */
+            height: auto; /* Maintains aspect ratio */
+            max-width: 100%; /* Makes sure the image does not exceed the container's width */
+            max-height: 300px; /* Optional: Limits the height to avoid excessive size */
+            object-fit: contain; /* Ensures the entire image fits inside the container */
+            border-radius: 10px;
+            margin-bottom: 15px;
+            display: block; /* Prevents extra space below the image */
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 30px;
+            color: #333;
+            border-bottom: 2px solid #0073e6;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .section {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .section ul {
+            list-style-type: disc; /* Restores bullet points */
+            padding-left: 20px; /* Adds indentation */
+        }
+        .section ul li {
+            margin: 10px 0;
+        }
+        .section a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        .section a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/logo.png" alt="Research Project Image">
+        <h1>CITCOM: Causal Inference for Testing of Computational Models</h1>
+        <p>Computational models can be hard to test. They have large input spaces (often hundreds of parameters). 
+            A single execution can take hours days. They can be inherently non-deterministic. Thus, running large numbers of carefully controlled 
+            tests is not feasible. Furthermore, given that they are often used to explore behaviours
+            of unfamiliar phenomena, there may be a lack of certainty around what constitutes a "correct" output.
+        </p>
+        <p>Causal Inference offers promising solutions to these problems. It provides
+            a framework to enable some lightweight domain-knowledge into the analysis process. This can enable the tester to answer questions about the (causal) relationships
+            between inputs (or parameters) and outputs. These can be answered without the need for large numbers of controlled tests. 
+        </p>
+    </div>
+    
+    <div class="section">
+        <h2>Research Contributions</h2>
+        <p>The CITCOM project runs from 2020-2025. The core conceptual contributions are listed and linked to their relevant papers here. A more complete bibliography is provided below.</p>
+        <ul>
+            <li><a href="https://eprints.whiterose.ac.uk/195317/1/CITCOM_2022_ICST%20%284%29.pdf">To show how causal tests can be characterised as a specific form of Metamorphic relationship. (ICST'23)</a></li>
+            <li><a href="https://dl.acm.org/doi/pdf/10.1145/3607184">To enable metamorphic relationships to be established from test executions without the need to control inputs. (TOSEM'23)</a></li>
+            <li><a href="https://eprints.whiterose.ac.uk/208652/1/main.pdf">To provide a statistical test adequacy metric for causal test cases (ICST'24)</a></li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>Software: The CITCOM Causal Testing Framework</h2>
+        <p>A tool implementing the CITCOM Causal Testing approach has been made available on GitHub under an MIT License.</p>
+        <ul>
+            <li><a href="https://github.com/CITCOM-project/CausalTestingFramework">CITCOM Causal Testing Framework GitHub Repository</a></li>
+            <li><a href="https://joss.theoj.org/papers/10.21105/joss.07739">Accompanying link to Journal of Open Source Software paper (JOSS'25)</a></li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>Target Systems</h2>
+        <p>Causal testing is quite a flexible approach and can be applied to a range of classes of systems. We are currently in a phase of the project where we are exploring its 
+            application to a range of types of systems. These include:
+            <ul>
+                <li>Scientific software models (covered in our <a href="https://dl.acm.org/doi/pdf/10.1145/3607184">TOSEM'23 paper</a>)</li>
+                <ul>
+                    <li>The CovaSim COVID pandemic simulator. We showed how the effect of different Covid variants could be accurately established from uncontrolled data, 
+                        despite the variation of a large number of parameters. </li>
+                    <li>The Luo-Rudy Cardiac Action Potential model. We replicated a sensitivity analysis of the parameters, but without requiring large numbers of controlled inputs.</li>
+                    <li>A Poisson Line Tessellation model. Highly stochastic behaviour makes this hard to test (using traditional techniques). We showed how this could be managed with
+                        causal techniques.</li>
+                </ul>
+                <li>Cyber-physical systems</li>
+                <p>We have particularly focussed on Artificial Pancreas Systems. In these systems a diabetic user is fitted with a glucose-monitor, and an insulin pump. The dosage
+                    of insulin is moderated by a controller that monitors the glucose-levels. This presents an interesting testing challenge, because a lot of the behaviour depends
+                on factors in the human body which cannot be controlled. </p>
+                <p>Details on the testing problem itself and on a Digital Twin test harness to support testing this are available in Richard Somers' recent <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/stvr.70000">STVR paper on the topic (STVR'25)</a>.  </p>
+                <li>Automated driving simulators</li>
+                <p>Automated driving systems present a particular testing problem, because there are lots of factors that sit outside of control </p>
+            </ul>
+        </p>
+    </div>
+    
+    <div class="section">
+        <h2>Acknowledgments</h2>
+        <p>This work has been funded by the <a href="https://www.ukri.org/councils/epsrc/">EPSRC</a> CITCOM grant.</p>
+    </div>
+</body>
+</html>
