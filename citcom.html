@@ -150,7 +150,6 @@
     <div class="section">
         <h2>Bibliography</h2>
         <style>
-            /* Pandoc-generated styles, limited to #refs to prevent conflicts */
             #refs {
                 color: #1a1a1a;
                 background-color: #fdfdfd;
@@ -161,9 +160,13 @@
                 overflow-wrap: break-word;
                 text-rendering: optimizeLegibility;
                 font-kerning: normal;
+                text-align: left; /* Ensures that content is left-aligned */
+                margin-left: 0;  /* Align to the left */
+                margin-right: auto;
             }
             #refs p {
                 margin: 1em 0;
+                text-align: left;  /* Left-align paragraphs */
             }
             #refs a {
                 color: #1a1a1a;
@@ -181,6 +184,7 @@
             #refs div.csl-entry {
                 clear: both;
                 margin-bottom: 0.5em;
+                text-align: left; /* Left-align bibliography entries */
             }
             #refs .hanging-indent div.csl-entry {
                 margin-left: 2em;
