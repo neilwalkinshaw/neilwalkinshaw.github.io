@@ -38,10 +38,20 @@
             display: inline-block;
             padding-bottom: 5px;
         }
+        h3 {
+            font-size: 18px;
+            margin-top: 25px;
+            color: #444;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            text-align: left;
+        }
         p {
             font-size: 16px;
             color: #555;
             margin-bottom: 15px;
+            line-height: 1.6;
+            text-align: left;
         }
         .social-links a {
             text-decoration: none;
@@ -51,26 +61,21 @@
         }
         .section {
             text-align: left;
-            margin-top: 20px;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
         }
         .section ul {
-            list-style-position: outside;
-            margin-left: 0;
-            padding-left: 20px; /* Space for the bullet */
+            list-style-type: disc;
+            margin-left: 20px;
+            padding-left: 20px;
         }
-
-        .section ul li {
-            position: relative;
-            padding-left: 20px; /* Space after the bullet */
-        }
-
-        .section ul li::before {
-            content: "•";
-            position: absolute;
-            left: 0;
-            top: 0;
-            color: #0073e6; /* Optional: bullet color */
-            font-size: 18px; /* Optional: bullet size */
+        .section li {
+            margin-bottom: 12px;
+            line-height: 1.5;
+            color: #333;
         }
         .section a {
             color: #0073e6;
@@ -93,43 +98,49 @@
         </div>
         <p>My email address is n.walkinshaw_@_sheffield.ac.uk</p>
     </div>
+
     <!-- Research Section -->
     <div class="section">
-      <h2>Research</h2>
+        <h2>Research</h2>
+        <p>
+            Broadly, my research interests lie in the testing and analysis of software and adaptive infrastructure systems.
+        </p>
+        <ul>
+            <li>📚 My publications can be found here:
+                <a href="https://scholar.google.com/citations?user=Qa8zO1EAAAAJ" target="_blank">Google Scholar</a> |  
+                <a href="https://dblp.org/pid/36/3976.html" target="_blank">DBLP</a>
+            </li>
+        </ul>
 
-      Broadly my research interests lie in the testing and analysis of software and cyber-physical systems. 
+        <h3>State Machine Inference and Analysis</h3>
+        <p>
+            I have a longstanding interest in techniques that help to understand the sequential behaviour of systems
+            when a prior model is unavailable. Key contributions in this area include:
+        </p>
+        <ul>
+            <li>
+                Extended Finite State Machine (EFSM) inference — a technique to infer state machines with guards 
+                (<a href="https://link.springer.com/article/10.1007/s10664-015-9367-7" target="_blank">Journal of Empirical Software Engineering, 2016</a>) and full computational EFSMs with state transition functions
+                (<a href="https://eprints.whiterose.ac.uk/127869/1/ICSME2016FinalSubmission.pdf" target="_blank">ICSME'16</a>).
+            </li>
+            <li>
+                LTSDiff — an algorithm to graphically compare two state machines 
+                (<a href="https://www.cs.le.ac.uk/people/nwalkinshaw/Files/tosem2012.pdf" target="_blank">ACM Transactions on Software Engineering Methodology, 2013</a>).
+            </li>
+            <li>
+                Subjective Opinion State Machines — a generalisation of Probabilistic State Machines using Subjective Logic to model
+                second-order uncertainty, improving accuracy in inferred state machines 
+                (<a href="https://eprints.whiterose.ac.uk/196630/14/Subjective_Logic_State_Machines.pdf" target="_blank">IEEE Transactions on Software Engineering, 2023</a>).
+            </li>
+        </ul>
 
-      <li>📚 My publications can be found here:  
-        <a href="https://scholar.google.com/citations?user=Qa8zO1EAAAAJ" target="_blank">Google Scholar</a> |  
-        <a href="https://dblp.org/pid/36/3976.html" target="_blank">DBLP</a>
-      </li>
-
-      <h3>State machine inference and analysis</h3>
-
-      <p>I have a longstanding interest in the development of techniques that can help to understand the sequential behaviour of systems
-        when there isn't a prior model available. My key contributions in this area include: 
-      </p>
-
-    <li> Extended Finite State Machine (EFSM) inference - a technique to infer state machines with guards (<a href="https://link.springer.com/article/10.1007/s10664-015-9367-7">Journal of Empirical Software Engineering, 2016</a>) and even 
-        full computational EFSMs with state transition functions (<a href="https://eprints.whiterose.ac.uk/127869/1/ICSME2016FinalSubmission.pdf">ICSME'16</a>).
-    </li>
-    <li> LTSDiff - an algorithm to graphically compare two state machines to each other (<a href="https://www.cs.le.ac.uk/people/nwalkinshaw/Files/tosem2012.pdf">ACM Transactions on Software Engineering Methodology, 2013</a>).
-    </li>
-    <li> Subjective Opinion State Machines - A generalisation of Probabilistic State Machines that uses Subjective Logic to model
-        second-order uncertainty (which captures the uncertainty surrounding a given probability). We show how these can be used to improve accuracy in 
-        inferred state machines (<a href="https://eprints.whiterose.ac.uk/196630/14/Subjective_Logic_State_Machines.pdf"></a> IEEE Transactions on Software Engineering, 2023). </li>
-
-      <h3>Causal Software Engineering</h3>
-
-      <p>I am  interested in developing techniques to support the testing of that are traditionally hard to test (e.g. complex input spaces, cyber-physical systems, systems with long 
-        execution times, etc.). My research tends to focus on the application of concepts and techniques rooted in Machine Learning and probability theory. In recent years much of my research has
-         focussed on the application of Causal Inference to test causal relationships between inputs and outputs in scientific software models (funded by the EPSRC CITCOM project). I have produced 
-        a <a href="citcom.html">separate page detailing our research on the CITCOM project</a>.</p>
-      
-  </div>
-
-</div>
-</body>
-</html>
+        <h3>Causal Software Engineering</h3>
+        <p>
+            My research explores techniques to support testing in traditionally difficult domains, such as complex input spaces, 
+            cyber-physical systems, and systems with long execution times. Much of my recent research has focused on the application of
+            Causal Inference to test causal relationships between inputs and outputs in scientific software models (funded by the EPSRC CITCOM project).
+            I have written up more details on this work in the <a href="citcom.html">CITCOM project page</a>.
+        </p>
+    </div>
 </body>
 </html>
