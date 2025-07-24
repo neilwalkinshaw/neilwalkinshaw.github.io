@@ -1,5 +1,6 @@
-a {
-  font-weight: normal !important;
+.site-title a,
+.site-title a:hover {
+  font-weight: bold !important;
 }
 
 a:hover {
