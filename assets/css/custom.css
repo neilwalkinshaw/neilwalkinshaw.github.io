@@ -1,8 +1,22 @@
-.site-title a,
-.site-title a:hover {
-  font-weight: bold !important;
+/* General: keep links from flickering when hovered */
+a {
+  font-weight: normal;
+  transition: none;
 }
 
 a:hover {
-  font-weight: normal !important;
+  font-weight: normal;
+  transition: none;
+}
+
+/* Specifically make the site title bold and prevent flicker */
+.site-title a {
+  font-weight: 700 !important;
+  transition: none !important;
+}
+
+/* Ensure hover state doesn't override anything */
+.site-title a:hover {
+  font-weight: 700 !important;
+  transition: none !important;
 }

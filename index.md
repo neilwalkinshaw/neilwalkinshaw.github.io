@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-## My Research
+# My Research
 
 I develop techniques and tools to improve the trustworthiness and reliability of software and cyber-physical systems. I am particularly interested in finding ways to test "hard to test" systems, with long execution times, non-determinism, limited state observability, and large input / output spaces. 
 
@@ -12,6 +12,9 @@ My research has been funded by the EPSRC (CITCOM, REGI, and STAMINA projects), I
 I am currently joint PC-chair for the [International Conference on Software Testing (ICST'26)](https://conf.researchr.org/home/icst-2026). I am an associate editor for the [Journal of Automated Software Engineering](https://link.springer.com/journal/10515).
 
 My research publications can be found on [Google Scholar](https://scholar.google.com/citations?hl=en&user=Qa8zO1EAAAAJ&view_op=list_works&sortby=pubdate). Some key publications are highlighted below.
+
+## Research Projects
+
 
 ### Causal Software Engineering
 
