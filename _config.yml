@@ -1,0 +1,9 @@
+title: Neil Walkinshaw
+description: 
+theme: jekyll-theme-minimal
+markdown: kramdown
+
+# Optional customisation
+logo: /assets/profile.jpg  
+github: false
+show_downloads: false
