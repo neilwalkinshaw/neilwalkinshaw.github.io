@@ -15,10 +15,7 @@ My research publications can be found on [Google Scholar](https://scholar.google
 
 ### Causal Software Engineering
 
-My research explores techniques to support testing in traditionally difficult domains, such as complex input spaces, 
-            cyber-physical systems, and systems with long execution times. Much of my recent research has focused on the application of
-            Causal Inference to test causal relationships between inputs and outputs in scientific software models (funded by the EPSRC CITCOM project).
-            I have written up more details on this work in the [CITCOM project page](citcom.md).
+Much of my recent research has focused on the application of Causal Inference to test causal input - output relationships in software and cyberphysical systems. Our work has focussed on a variety of systems that are traditionally hard to test, including scientific software models, automated driving systems, and cyberphysical systems such as artificial pancreas systems. This work has been funded through the EPSRC CITCOM project. More details on this work can be found [here](citcom.md).
 
 ### State Machine Inference and Analysis
 
