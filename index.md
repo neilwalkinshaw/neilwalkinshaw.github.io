@@ -23,15 +23,14 @@ I have a longstanding interest in techniques that help to understand the sequent
 
 - Extended Finite State Machine (EFSM) inference — a technique to infer state machines with guards ([Journal of Empirical Software Engineering, 2016](https://link.springer.com/article/10.1007/s10664-015-9367-7)) and full computational EFSMs with state transition functions ([ICSME'16](https://eprints.whiterose.ac.uk/127869/1/ICSME2016FinalSubmission.pdf)).
 - LTSDiff — an algorithm to graphically compare two state machines ([ACM Transactions on Software Engineering Methodology, 2013](https://www.cs.le.ac.uk/people/nwalkinshaw/Files/tosem2012.pdf)).
-- Subjective Opinion State Machines — a generalisation of Probabilistic State Machines using Subjective Logic to model second-order uncertainty, improving accuracy in inferred state machines ([IEEE Transactions on Software Engineering, 2023](https://eprints.whiterose.ac.uk/196630/14/Subjective_Logic_State_Machines.pdf)).
 
 ### Second-order uncertainty in Software Engineering
 
-Second-order uncertainty is concerned with quantifying the (un-)certainty surrounding a probability. This arises in many Software Engineering contexts - if not in most contexts where probabilistic reasoning takes place. There are various uncertainty logics out there that provide ways of reasoning about probabilities in this way. My initial forays into this area used an approach called Evidential Reasoning. I then adopted Subjective Logic, because it is more flexible and expressive. Anything you can do with a conventional probability can be extended to Subjective Logic, and thus incorporate second-order uncertainties. Key works in this area include:
+Second-order uncertainty is concerned with quantifying the (un-)certainty surrounding a probability. Recent work has focussed on using Subjective Logic to reason about second-order uncertainty in SE contexts. 
 
 - Using Evidential Reasoning to quantify second order uncertainty in Safety Arguments [ISSRE'15](https://figshare.le.ac.uk/articles/conference_contribution/An_Evidential_Reasoning_Approach_for_Assessing_Confidence_in_Safety_Evidence/10129847/1/files/18256145.pdf)
 - Using Subjective Logic to reason about uncertainty in Empirical Software Engineering experiments [EASE'20](https://eprints.whiterose.ac.uk/156832/1/EASE2020_Uncertainty.pdf)
-- The work mentioned above of using Subjective Logic to reason about uncertainty in state machines ([IEEE Transactions on Software Engineering, 2023](https://eprints.whiterose.ac.uk/196630/14/Subjective_Logic_State_Machines.pdf)).
+- Using Subjective Logic to reason about uncertainty in inferred state machines ([IEEE Transactions on Software Engineering, 2023](https://eprints.whiterose.ac.uk/196630/14/Subjective_Logic_State_Machines.pdf)).
 
 ---
 
