@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# My Research
+# Research
 
 I develop techniques and tools to improve the trustworthiness and reliability of software and cyber-physical systems. I am particularly interested in finding ways to test "hard to test" systems, with long execution times, non-determinism, limited state observability, and large input / output spaces. 
 
@@ -34,6 +34,17 @@ Second-order uncertainty is concerned with quantifying the (un-)certainty surrou
 - Using Evidential Reasoning to quantify second order uncertainty in Safety Arguments [ISSRE'15](https://figshare.le.ac.uk/articles/conference_contribution/An_Evidential_Reasoning_Approach_for_Assessing_Confidence_in_Safety_Evidence/10129847/1/files/18256145.pdf)
 - Using Subjective Logic to reason about uncertainty in Empirical Software Engineering experiments [EASE'20](https://eprints.whiterose.ac.uk/156832/1/EASE2020_Uncertainty.pdf)
 - Using Subjective Logic to reason about uncertainty in inferred state machines ([IEEE Transactions on Software Engineering, 2023](https://eprints.whiterose.ac.uk/196630/14/Subjective_Logic_State_Machines.pdf)).
+
+## Team
+
+On the CITCOM project I am currently working with two fantastic Research Software Engineers - [Michael Foster](https://jmafoster1.github.io/) and [Farhad Allian](https://www.farhadallian.co.uk/). 
+
+I am currently supervising the following Ph.D. students:
+
+- Giulia Neri is investigating the relationship between organisational factors and exploratory testing.
+- Harry Bolton is investigating probabilistic test stopping criteria for fuzzing and for cyber-physical testing. Harry is jointly supervised with [James Law](https://sheffield.ac.uk/cs/people/academic/james-law) at the [Advanced Manufacturing Research Centre (AMRC)](https://www.amrc.co.uk/).
+
+I have had the priviledge of supervising seven Ph.D. students through to completion throughout my time at Sheffield and Leicester. 
 
 ---
 
