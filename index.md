@@ -13,8 +13,6 @@ I am currently joint PC-chair for the [International Conference on Software Test
 
 My research publications can be found on [Google Scholar](https://scholar.google.com/citations?hl=en&user=Qa8zO1EAAAAJ&view_op=list_works&sortby=pubdate). Some key publications are highlighted below.
 
-## Research Projects
-
 
 ### Causal Software Engineering
 
