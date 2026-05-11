@@ -18,7 +18,8 @@ The CITCOM project runs from 2020-2025. The core conceptual contributions are li
 - [To show how causal tests can be characterised as a specific form of Metamorphic relationship. (ICST'23)](https://eprints.whiterose.ac.uk/195317/1/CITCOM_2022_ICST%20%284%29.pdf)
 - [To enable metamorphic relationships to be established from test executions without the need to control inputs. (TOSEM'23)](https://dl.acm.org/doi/pdf/10.1145/3607184)
 - [To provide a statistical test adequacy metric for causal test cases (ICST'24)](https://eprints.whiterose.ac.uk/208652/1/main.pdf)
-- Illustrating how Causal Inference can test systems with hidden and interacting variables. (EASE'25 – awarded the best research paper award)
+- [Illustrating how Causal Inference can test systems with hidden and interacting variables (EASE'25 – awarded the best research paper award)](https://dl.acm.org/doi/full/10.1145/3756681.3756967)
+- Illustrating how Causal Inference can be used to minimise sequential test cases of cyber-physical systems (TOSEM'26) - to appear
     
 ## Software: The CITCOM Causal Testing Framework
 A tool implementing the CITCOM Causal Testing approach has been made available on GitHub under an MIT License.
@@ -28,19 +29,16 @@ A tool implementing the CITCOM Causal Testing approach has been made available o
 
 ## Target Systems
 
-Causal testing is quite a flexible approach and can be applied to a range of classes of systems. We are currently in a phase of the project where we are exploring its application to a range of types of systems. These include:
+We have primarily applied Causal Inference to test scientific computational models and cyberphysical systems. Specific examples include:
             
-- Scientific software models (covered in our [TOSEM'23 paper](https://dl.acm.org/doi/pdf/10.1145/3607184))
-  - The CovaSim COVID pandemic simulator. We showed how the effect of different Covid variants could be accurately established from uncontrolled data, despite the variation of a large number of parameters.
-  - The Luo-Rudy Cardiac Action Potential model. We replicated a sensitivity analysis of the parameters, but without requiring large numbers of controlled inputs.
-  - A Poisson Line Tessellation model. Highly stochastic behaviour makes this hard to test (using traditional techniques). We showed how this could be managed with causal techniques.
+- *Scientific software models* (covered in our [TOSEM'23 paper](https://dl.acm.org/doi/pdf/10.1145/3607184))
+  - The CovaSim *COVID pandemic simulator*. We showed how the effect of different Covid variants could be accurately established from uncontrolled data, despite the variation of a large number of parameters.
+  - The Luo-Rudy *Cardiac Action Potential model*. We replicated a sensitivity analysis of the parameters, but without requiring large numbers of controlled inputs.
+  - A Poisson Line *Tessellation model*. Highly stochastic behaviour makes this hard to test (using traditional techniques). We showed how this could be managed with causal techniques.
+  - Recently we have extended this work into a practical setting, working on testing *national water resource models* with the [UK Environment Agency](https://www.gov.uk/government/organisations/environment-agency).
 
-- Cyber-physical systems
+- *Cyber-physical systems*
 
-  We have particularly focussed on Artificial Pancreas Systems. In these systems a diabetic user is fitted with a glucose-monitor, and an insulin pump. The dosage of insulin is moderated by a controller that monitors the glucose-levels. This presents an interesting testing challenge, because a lot of the behaviour depends on factors in the human body which cannot be controlled.
-
-  Details on the testing problem itself and on a Digital Twin test harness to support testing this are available in Richard Somers' recent [STVR paper on the topic (STVR'25)](https://onlinelibrary.wiley.com/doi/pdf/10.1002/stvr.70000).
-
-- Automated driving simulators
-
-  Automated driving systems (ADSs) present a particular testing problem, because there are lots of factors that sit outside of control of the tester, and there are lots of hidden variables. We show how causal testing can be used to test ADSs in a forthcoming EASE'25 paper.
+  - We have tested models of *Artificial Pancreas Systems*. In these systems a diabetic user is fitted with a glucose-monitor, and an insulin pump. The dosage of insulin is moderated by a controller that monitors the glucose-levels. This presents an interesting testing challenge, because a lot of the behaviour depends on factors in the human body which cannot be controlled. Details on the testing problem itself and on a Digital Twin test harness to support testing this are available in Richard Somers' [STVR paper on the topic (STVR'25)](https://onlinelibrary.wiley.com/doi/pdf/10.1002/stvr.70000).
+  - *Automated driving simulators (ADSs)* present a particular testing problem, because there are lots of factors that sit outside of control of the tester, and there are lots of hidden variables. We show how causal testing can be used to test ADSs in [our EASE'25 paper](https://dl.acm.org/doi/full/10.1145/3756681.3756967).
+  - We are currently testing *Smart Manufacturing Systems*. This work is being carried out by Joel Hogg, who is working on his Ph.D. as part of the [EPSRC Made4Manufacturing CDT in Machining, Assembly and Digital Engineering for Manufacturing](https://sheffield.ac.uk/made4manufacturing).
