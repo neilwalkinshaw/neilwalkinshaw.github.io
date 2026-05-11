@@ -39,6 +39,7 @@ On the CITCOM project I am currently working with two fantastic Research Softwar
 
 I am currently supervising the following Ph.D. students:
 
+- Joel Hogg is investigating the application of Causal Inference to Test Smart Manufacturing systems at the [Advanced Manufacturing Research Centre (AMRC)](https://www.amrc.co.uk/), jointly supervised with [José Rojas](https://jmrojas.github.io/) and [Pete Crawforth](https://sheffield.ac.uk/amrc/amrc-research-staff/pete-crawforth).
 - Giulia Neri is investigating the relationship between organisational factors and exploratory testing.
 - Harry Bolton is investigating probabilistic test stopping criteria for fuzzing and for cyber-physical testing. Harry is jointly supervised with [James Law](https://sheffield.ac.uk/cs/people/academic/james-law) at the [Advanced Manufacturing Research Centre (AMRC)](https://www.amrc.co.uk/).
 
